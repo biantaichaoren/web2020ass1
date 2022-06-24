@@ -6,3 +6,5 @@ WORKDIR /app
 COPY go.mod .
 COPY main.go .
 
+
+RUN go build main.go
