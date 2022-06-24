@@ -5,3 +5,4 @@ WORKDIR /app
 
 COPY go.mod .
 COPY main.go .
+
