@@ -12,3 +12,5 @@ RUN go build main.go
 FROM alpine
 
 WORKDIR /app
+
+COPY --from=build /app/main .
