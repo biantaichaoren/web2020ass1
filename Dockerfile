@@ -14,3 +14,5 @@ FROM alpine
 WORKDIR /app
 
 COPY --from=build /app/main .
+
+EXPOSE 8080
