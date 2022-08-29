@@ -5,4 +5,4 @@ import (
 	"net/http"
 )
 
-func hello(w http.R
+func hello(w http.Res
