@@ -5,4 +5,4 @@ import (
 	"net/http"
 )
 
-func hello(w http.ResponseWrite
+func hello(w http.ResponseWriter
