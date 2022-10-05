@@ -6,4 +6,4 @@ import (
 )
 
 func hello(w http.ResponseWriter, req *http.Request) {
-	fmt.Fprintf(w, "hello la
+	fmt.Fprintf(w, "hello lad
