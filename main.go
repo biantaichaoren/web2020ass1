@@ -13,4 +13,5 @@ func hello(w http.ResponseWriter, req *http.Request) {
 func main() {
 	fmt.Printf("web server starting....")
 
-	http.HandleFunc("/hello", hello
+	http.HandleFunc("/hello", hello)
+
