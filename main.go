@@ -15,4 +15,4 @@ func main() {
 
 	http.HandleFunc("/hello", hello)
 
-	fmt.Printf("web serve
+	fmt.Printf("web server
